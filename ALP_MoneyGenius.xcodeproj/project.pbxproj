@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04EBC4162A09ECB3006F85F4 /* ALP_MoneyGeniusApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EBC4152A09ECB3006F85F4 /* ALP_MoneyGeniusApp.swift */; };
+		04EBC4182A09ECB3006F85F4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EBC4172A09ECB3006F85F4 /* ContentView.swift */; };
+		04EBC41A2A09ECB5006F85F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04EBC4192A09ECB5006F85F4 /* Assets.xcassets */; };
+		04EBC41D2A09ECB5006F85F4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04EBC41C2A09ECB5006F85F4 /* Preview Assets.xcassets */; };
+		04EBC41F2A09ECB5006F85F4 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EBC41E2A09ECB5006F85F4 /* Persistence.swift */; };
+		04EBC4222A09ECB5006F85F4 /* ALP_MoneyGenius.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04EBC4202A09ECB5006F85F4 /* ALP_MoneyGenius.xcdatamodeld */; };
+		04EBC42C2A09ECB5006F85F4 /* ALP_MoneyGeniusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EBC42B2A09ECB5006F85F4 /* ALP_MoneyGeniusTests.swift */; };
+		04EBC4362A09ECB6006F85F4 /* ALP_MoneyGeniusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EBC4352A09ECB6006F85F4 /* ALP_MoneyGeniusUITests.swift */; };
+		04EBC4382A09ECB6006F85F4 /* ALP_MoneyGeniusUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EBC4372A09ECB6006F85F4 /* ALP_MoneyGeniusUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04EBC4282A09ECB5006F85F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04EBC40A2A09ECB3006F85F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04EBC4112A09ECB3006F85F4;
+			remoteInfo = ALP_MoneyGenius;
+		};
+		04EBC4322A09ECB6006F85F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04EBC40A2A09ECB3006F85F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04EBC4112A09ECB3006F85F4;
+			remoteInfo = ALP_MoneyGenius;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04EBC4122A09ECB3006F85F4 /* ALP_MoneyGenius.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ALP_MoneyGenius.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04EBC4152A09ECB3006F85F4 /* ALP_MoneyGeniusApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ALP_MoneyGeniusApp.swift; sourceTree = "<group>"; };
+		04EBC4172A09ECB3006F85F4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		04EBC4192A09ECB5006F85F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04EBC41C2A09ECB5006F85F4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		04EBC41E2A09ECB5006F85F4 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		04EBC4212A09ECB5006F85F4 /* ALP_MoneyGenius.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ALP_MoneyGenius.xcdatamodel; sourceTree = "<group>"; };
+		04EBC4272A09ECB5006F85F4 /* ALP_MoneyGeniusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ALP_MoneyGeniusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04EBC42B2A09ECB5006F85F4 /* ALP_MoneyGeniusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ALP_MoneyGeniusTests.swift; sourceTree = "<group>"; };
+		04EBC4312A09ECB6006F85F4 /* ALP_MoneyGeniusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ALP_MoneyGeniusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04EBC4352A09ECB6006F85F4 /* ALP_MoneyGeniusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ALP_MoneyGeniusUITests.swift; sourceTree = "<group>"; };
+		04EBC4372A09ECB6006F85F4 /* ALP_MoneyGeniusUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ALP_MoneyGeniusUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04EBC40F2A09ECB3006F85F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04EBC4242A09ECB5006F85F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04EBC42E2A09ECB6006F85F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04EBC4092A09ECB3006F85F4 = {
+			isa = PBXGroup;
+			children = (
+				04EBC4142A09ECB3006F85F4 /* ALP_MoneyGenius */,
+				04EBC42A2A09ECB5006F85F4 /* ALP_MoneyGeniusTests */,
+				04EBC4342A09ECB6006F85F4 /* ALP_MoneyGeniusUITests */,
+				04EBC4132A09ECB3006F85F4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04EBC4132A09ECB3006F85F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04EBC4122A09ECB3006F85F4 /* ALP_MoneyGenius.app */,
+				04EBC4272A09ECB5006F85F4 /* ALP_MoneyGeniusTests.xctest */,
+				04EBC4312A09ECB6006F85F4 /* ALP_MoneyGeniusUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04EBC4142A09ECB3006F85F4 /* ALP_MoneyGenius */ = {
+			isa = PBXGroup;
+			children = (
+				04EBC4152A09ECB3006F85F4 /* ALP_MoneyGeniusApp.swift */,
+				04EBC4172A09ECB3006F85F4 /* ContentView.swift */,
+				04EBC4192A09ECB5006F85F4 /* Assets.xcassets */,
+				04EBC41E2A09ECB5006F85F4 /* Persistence.swift */,
+				04EBC4202A09ECB5006F85F4 /* ALP_MoneyGenius.xcdatamodeld */,
+				04EBC41B2A09ECB5006F85F4 /* Preview Content */,
+			);
+			path = ALP_MoneyGenius;
+			sourceTree = "<group>";
+		};
+		04EBC41B2A09ECB5006F85F4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				04EBC41C2A09ECB5006F85F4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		04EBC42A2A09ECB5006F85F4 /* ALP_MoneyGeniusTests */ = {
+			isa = PBXGroup;
+			children = (
+				04EBC42B2A09ECB5006F85F4 /* ALP_MoneyGeniusTests.swift */,
+			);
+			path = ALP_MoneyGeniusTests;
+			sourceTree = "<group>";
+		};
+		04EBC4342A09ECB6006F85F4 /* ALP_MoneyGeniusUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04EBC4352A09ECB6006F85F4 /* ALP_MoneyGeniusUITests.swift */,
+				04EBC4372A09ECB6006F85F4 /* ALP_MoneyGeniusUITestsLaunchTests.swift */,
+			);
+			path = ALP_MoneyGeniusUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04EBC4112A09ECB3006F85F4 /* ALP_MoneyGenius */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04EBC43B2A09ECB6006F85F4 /* Build configuration list for PBXNativeTarget "ALP_MoneyGenius" */;
+			buildPhases = (
+				04EBC40E2A09ECB3006F85F4 /* Sources */,
+				04EBC40F2A09ECB3006F85F4 /* Frameworks */,
+				04EBC4102A09ECB3006F85F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ALP_MoneyGenius;
+			productName = ALP_MoneyGenius;
+			productReference = 04EBC4122A09ECB3006F85F4 /* ALP_MoneyGenius.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04EBC4262A09ECB5006F85F4 /* ALP_MoneyGeniusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04EBC43E2A09ECB6006F85F4 /* Build configuration list for PBXNativeTarget "ALP_MoneyGeniusTests" */;
+			buildPhases = (
+				04EBC4232A09ECB5006F85F4 /* Sources */,
+				04EBC4242A09ECB5006F85F4 /* Frameworks */,
+				04EBC4252A09ECB5006F85F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04EBC4292A09ECB5006F85F4 /* PBXTargetDependency */,
+			);
+			name = ALP_MoneyGeniusTests;
+			productName = ALP_MoneyGeniusTests;
+			productReference = 04EBC4272A09ECB5006F85F4 /* ALP_MoneyGeniusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04EBC4302A09ECB6006F85F4 /* ALP_MoneyGeniusUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04EBC4412A09ECB6006F85F4 /* Build configuration list for PBXNativeTarget "ALP_MoneyGeniusUITests" */;
+			buildPhases = (
+				04EBC42D2A09ECB6006F85F4 /* Sources */,
+				04EBC42E2A09ECB6006F85F4 /* Frameworks */,
+				04EBC42F2A09ECB6006F85F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04EBC4332A09ECB6006F85F4 /* PBXTargetDependency */,
+			);
+			name = ALP_MoneyGeniusUITests;
+			productName = ALP_MoneyGeniusUITests;
+			productReference = 04EBC4312A09ECB6006F85F4 /* ALP_MoneyGeniusUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04EBC40A2A09ECB3006F85F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					04EBC4112A09ECB3006F85F4 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					04EBC4262A09ECB5006F85F4 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 04EBC4112A09ECB3006F85F4;
+					};
+					04EBC4302A09ECB6006F85F4 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 04EBC4112A09ECB3006F85F4;
+					};
+				};
+			};
+			buildConfigurationList = 04EBC40D2A09ECB3006F85F4 /* Build configuration list for PBXProject "ALP_MoneyGenius" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04EBC4092A09ECB3006F85F4;
+			productRefGroup = 04EBC4132A09ECB3006F85F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04EBC4112A09ECB3006F85F4 /* ALP_MoneyGenius */,
+				04EBC4262A09ECB5006F85F4 /* ALP_MoneyGeniusTests */,
+				04EBC4302A09ECB6006F85F4 /* ALP_MoneyGeniusUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04EBC4102A09ECB3006F85F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04EBC41D2A09ECB5006F85F4 /* Preview Assets.xcassets in Resources */,
+				04EBC41A2A09ECB5006F85F4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04EBC4252A09ECB5006F85F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04EBC42F2A09ECB6006F85F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04EBC40E2A09ECB3006F85F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04EBC41F2A09ECB5006F85F4 /* Persistence.swift in Sources */,
+				04EBC4182A09ECB3006F85F4 /* ContentView.swift in Sources */,
+				04EBC4162A09ECB3006F85F4 /* ALP_MoneyGeniusApp.swift in Sources */,
+				04EBC4222A09ECB5006F85F4 /* ALP_MoneyGenius.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04EBC4232A09ECB5006F85F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04EBC42C2A09ECB5006F85F4 /* ALP_MoneyGeniusTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04EBC42D2A09ECB6006F85F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04EBC4382A09ECB6006F85F4 /* ALP_MoneyGeniusUITestsLaunchTests.swift in Sources */,
+				04EBC4362A09ECB6006F85F4 /* ALP_MoneyGeniusUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04EBC4292A09ECB5006F85F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04EBC4112A09ECB3006F85F4 /* ALP_MoneyGenius */;
+			targetProxy = 04EBC4282A09ECB5006F85F4 /* PBXContainerItemProxy */;
+		};
+		04EBC4332A09ECB6006F85F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04EBC4112A09ECB3006F85F4 /* ALP_MoneyGenius */;
+			targetProxy = 04EBC4322A09ECB6006F85F4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		04EBC4392A09ECB6006F85F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04EBC43A2A09ECB6006F85F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04EBC43C2A09ECB6006F85F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ALP_MoneyGenius/Preview Content\"";
+				DEVELOPMENT_TEAM = 65MU3RV28U;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ucexerciseweek.ALP-MoneyGenius";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04EBC43D2A09ECB6006F85F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ALP_MoneyGenius/Preview Content\"";
+				DEVELOPMENT_TEAM = 65MU3RV28U;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ucexerciseweek.ALP-MoneyGenius";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		04EBC43F2A09ECB6006F85F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 65MU3RV28U;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ucexerciseweek.ALP-MoneyGeniusTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ALP_MoneyGenius.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ALP_MoneyGenius";
+			};
+			name = Debug;
+		};
+		04EBC4402A09ECB6006F85F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 65MU3RV28U;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ucexerciseweek.ALP-MoneyGeniusTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ALP_MoneyGenius.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ALP_MoneyGenius";
+			};
+			name = Release;
+		};
+		04EBC4422A09ECB6006F85F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 65MU3RV28U;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ucexerciseweek.ALP-MoneyGeniusUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ALP_MoneyGenius;
+			};
+			name = Debug;
+		};
+		04EBC4432A09ECB6006F85F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 65MU3RV28U;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ucexerciseweek.ALP-MoneyGeniusUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ALP_MoneyGenius;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04EBC40D2A09ECB3006F85F4 /* Build configuration list for PBXProject "ALP_MoneyGenius" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04EBC4392A09ECB6006F85F4 /* Debug */,
+				04EBC43A2A09ECB6006F85F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04EBC43B2A09ECB6006F85F4 /* Build configuration list for PBXNativeTarget "ALP_MoneyGenius" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04EBC43C2A09ECB6006F85F4 /* Debug */,
+				04EBC43D2A09ECB6006F85F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04EBC43E2A09ECB6006F85F4 /* Build configuration list for PBXNativeTarget "ALP_MoneyGeniusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04EBC43F2A09ECB6006F85F4 /* Debug */,
+				04EBC4402A09ECB6006F85F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04EBC4412A09ECB6006F85F4 /* Build configuration list for PBXNativeTarget "ALP_MoneyGeniusUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04EBC4422A09ECB6006F85F4 /* Debug */,
+				04EBC4432A09ECB6006F85F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		04EBC4202A09ECB5006F85F4 /* ALP_MoneyGenius.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				04EBC4212A09ECB5006F85F4 /* ALP_MoneyGenius.xcdatamodel */,
+			);
+			currentVersion = 04EBC4212A09ECB5006F85F4 /* ALP_MoneyGenius.xcdatamodel */;
+			path = ALP_MoneyGenius.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 04EBC40A2A09ECB3006F85F4 /* Project object */;
+}
